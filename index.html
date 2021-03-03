@@ -1,27 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Wesbite</title>
+    <link href="index.css" rel="stylesheet">
 </head>
+
 <body>
     <header>
+        <!-- <div class="intro"> -->
         <h1>My Website</h1>
-        <h2>With a <b>flexible</b> layout</h2>
+        <p>With a <b>flexible</b> layout</h2>
+            <!-- </div> -->
     </header>
-        <nav>
-            <ul>
-                <li>Link 1</li>
-                <li>Link 2</li>
-                <li>Link 3</li>
-                <li>Link 4</li>
-            </ul>
-        </nav>
+    <nav>
+        <ul class="navigation">
+            <li>Link 1</li>
+            <li>Link 2</li>
+            <li>Link 3</li>
+            <li>Link 4</li>
+        </ul>
+    </nav>
 
     <main>
-        <h1>About Me</h1>
-        <img src="upside-down-face.jpeg">
-    </main>  
+        <article class="aboutme">
+            <h1>About Me</h1>
+            <p>Photo of me</p>
+            <img src="pic1.jpeg">
+            <p>Some text about me</p>
+            <h2>More Text</h2>
+            <p>Few pictures of me</p> 
+            <img src="pic2.jpeg">
+            <img src="pic3.jpeg">
+            <img src="pic4.jpeg">
+        </article>
+
+        <!-- <div class="blogs"> -->
+        <section class='blogs'>
+            <article>
+                <h1>Blog 1</h1>
+                <h2>Blog 1 description and date</h2>
+                <img src="beach.jpeg">
+                <p>This is a beach</p>
+                <p>This is a beach in Manipal</p>
+            </article>
+
+            <article>
+                <h1>Blog 2</h1>
+                <h2>Blog 2 description and date</h2>
+                <img src="desert.jpeg">
+                <p>This is a desert</p>
+                <p>This is a desert in Jaisalmer</p>
+            </article>
+        </section>
+        <!-- </div> -->
+    </main>
+    <footer>
+        <p><strong>Footer</strong></p>
+    </footer> 
 </body>
+
 </html>

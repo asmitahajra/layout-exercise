@@ -1,0 +1,59 @@
+body {
+    margin: 0%;
+}
+header {
+    background-color: cadetblue;
+    text-align: center;
+    color: whitesmoke;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.navigation {
+    padding: 4px;
+    display:flex;
+    flex-direction: row;
+    list-style-type: none;
+    /* justify-content: flex-start; */
+    background-color: black;
+    color: whitesmoke
+}
+
+.navigation>li {
+    padding: 0px 8px;
+}
+
+main {
+    display: flex;
+}
+
+.aboutme {
+    padding: 0 20px;
+    background-color: lightgrey;
+    width: 40%;
+}
+
+.blogs {
+    padding: 0 20px;
+}
+
+img {
+    height: 400px ;
+    width: 100%;
+}
+
+.blogs {
+    width: 60%;
+}
+
+footer{
+    background-color: lightgray;
+    text-align: center;
+}
+
+p {
+    margin: 0;
+    padding: 10px;
+}
